@@ -22,8 +22,8 @@
 	--backgroundsecondaryalt: 		41,43,47;
 	--backgroundtertiary: 			32,34,37;
 	--backgroundfloating: 			24,25,28;
+	--sctrollbarcolor:              222, 163, 230;
 
-	--scrollbar-color: 		     	222, 163, 230;
 }
 
 .theme-light:not(.userProfileOuterThemed-2BgJCM),
@@ -149,7 +149,7 @@
 	--background-message-automod: rgba(var(--dangercolor),.05);
 	--background-message-automod-hover: rgba(var(--dangercolor),.1);
 	
-	--scrollbar-thin-thumb: rgb(var(--backgroundtertiary));
+	--scrollbar-thin-thumb: rgb(var(--scrollbarcolor));
 	--scrollbar-thin-track: transparent;
 	--scrollbar-auto-thumb: rgb(var(--backgroundtertiary));
 	--scrollbar-auto-track: rgb(var(--backgroundsecondary));
